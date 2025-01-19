@@ -30,35 +30,35 @@ const Hero = () => {
             <img
               src={c1}
               alt="Slide 1"
-              className="w-auto h-72 object-contain "
+              className="w-full h-72 object-contain "
             />
           </div>
           <div>
             <img
               src={c2}
               alt="Slide 2"
-              className="w-auto h-72 object-contain"
+              className="w-full h-72 object-contain"
             />
           </div>
           <div>
             <img
               src={c3}
               alt="Slide 3"
-              className="w-auto h-72 object-contain"
+              className="w-full h-72 object-contain"
             />
           </div>
           <div>
             <img
               src={c4}
               alt="Slide 4"
-              className="w-auto h-72 object-contain"
+              className="w-full h-72 object-contain"
             />
           </div>
           <div>
             <img
-              src={c5}
+              src=""
               alt="Slide 5"
-              className="w-auto h-72 object-contain"
+              className="w-full h-72 object-contain"
             />
           </div>
         </Slider>
