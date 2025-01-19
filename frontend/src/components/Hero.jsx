@@ -2,6 +2,12 @@ import React from 'react'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import c1 from "../assets/c1.jpg"
+import c2 from "../assets/c2.jpg"
+import c3 from "../assets/c3.jpg"
+import c4 from "../assets/c4.jpg"
+
+
 
 const Hero = () => {
 
@@ -22,37 +28,37 @@ const Hero = () => {
         <Slider {...settings} className="w-full h-72">
           <div>
             <img
-              src="https://via.placeholder.com/1920x288"
+              src={c1}
               alt="Slide 1"
-              className="w-full h-72 object-contain"
+              className="w-auto h-72 object-contain "
             />
           </div>
           <div>
             <img
-              src="https://via.placeholder.com/1920x288"
+              src={c2}
               alt="Slide 2"
-              className="w-full h-72 object-contain"
+              className="w-auto h-72 object-contain"
             />
           </div>
           <div>
             <img
-              src="https://via.placeholder.com/1920x288"
+              src={c3}
               alt="Slide 3"
-              className="w-full h-72 object-contain"
+              className="w-auto h-72 object-contain"
             />
           </div>
           <div>
             <img
-              src="https://via.placeholder.com/1920x288"
+              src={c4}
               alt="Slide 4"
-              className="w-full h-72 object-contain"
+              className="w-auto h-72 object-contain"
             />
           </div>
           <div>
             <img
-              src="https://via.placeholder.com/1920x288"
+              src={c5}
               alt="Slide 5"
-              className="w-full h-72 object-contain"
+              className="w-auto h-72 object-contain"
             />
           </div>
         </Slider>
